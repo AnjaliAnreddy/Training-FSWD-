@@ -1,0 +1,73 @@
+
+\\Assigment(Day-1)(6-1-2025)
+1)Give me some idea on what is a Data type. What are Primitive Data types and Non-Primitive Data types. Explain with some examples.
+Answer:
+
+*)Datatypes used to mention what kind of data used in the variable.
+*)Datatypes describe the different types or kinds of data that we're gonna be working with and storing in variables.
+ 
+Types of DataTypes:-
+---------------------
+1.Primitive datatype
+2.Non-Primitive Datatype
+
+1)Primitive datatype:-*It can store single values.
+                      *They are default.
+Types of Primitive datatype:-
+                         String ,Number ,Boolean ,Null ,Undefined.
+
+Examples:
+1)String:Sequence of characters enclosed within double quotes / single quotes / backticks(``).
+
+ let str1 = "double quotes";
+ console.log(str1);
+ console.log(typeof(str1));
+
+2)Number:It sotres all the number data types such as integer , float values etc...
+ let num = 10.345678;
+ console.log(num , typeof(num));
+
+3)Boolean:True/false 
+   
+ let bool = true;
+ console.log(bool , typeof(bool));
+
+4)Null:Any variable decalred but not intitialized.
+ 
+ let b = null;
+ console.log(b , typeof(b));
+
+5)Undefined:Empty of object.
+
+let variable = undefined;
+// or
+let x; 
+
+
+
+2)Non-Primitive Datatypes:- *It can store multiple 
+                                values.                            
+                            *They are user defined.
+ Types of Non-Primitive datatypes:
+         
+ Functions, Arrays , Objects.
+
+1)Functions:A JavaScript function is a block of code designed to perform a particular task.
+Example:
+
+     function myFunction(p1, p2) {
+     return p1 * p2;
+     }
+
+2)Arrays:An array is a special variable, which can hold more than one value.
+Example:
+   
+ const cars = ["Saab", "Volvo", "BMW"];
+
+3)Objects:Objects are variables too. But objects can contain many values.
+Example:
+const car = {type:"Fiat", model:"500", color:"white"};
+
+
+
+
