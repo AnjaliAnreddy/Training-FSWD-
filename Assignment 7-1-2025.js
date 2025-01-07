@@ -1,3 +1,5 @@
+//Find the maximum number among the given values.
+
 let a = prompt("Enter a number for A")
 let b = prompt("Enter a number for B")
 let c = prompt("Enter a number for C")
