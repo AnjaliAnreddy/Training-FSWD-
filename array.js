@@ -136,14 +136,14 @@
 //     console.log(user.name);
 // })
 
-let userDetails={
-    name:"Ankith",
-    age:25,
-    city:"Hyderbad"
-}
- console.log(userDetails);
- console.log(userDetails.name);
- console.log(typeof(userDetails));
+// let userDetails={
+//     name:"Ankith",
+//     age:25,
+//     city:"Hyderbad"
+// }
+//  console.log(userDetails);
+//  console.log(userDetails.name);
+//  console.log(typeof(userDetails));
 
 //  let x = JSON.stringify(userDetails);
 //  console.log(x);
