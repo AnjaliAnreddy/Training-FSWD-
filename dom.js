@@ -30,12 +30,12 @@
 
 // ! document.getElementsByName()
 
-// let ele = document.getElementsByName("username");
-// console.log(ele);
-// [...ele].map(element=>{
-//     // console.log(element);
-//     element.style.backgroundColor="aqua"
-// })
+let ele = document.getElementsByName("username");
+console.log(ele);
+[...ele].map(element=>{
+    console.log(element.value);
+    // element.style.backgroundColor="aqua"
+})
 
 //!
 
@@ -84,4 +84,18 @@
 
 // inp.addEventListener("keyup",()=>{
 //     console.log("key up");
+// })
+
+
+//!
+// let bgColor = document.querySelectorAll(".bgColor");
+// [...bgColor].map((element)=>{
+//     element.addEventListener("mouseover",()=>{
+//         // console.log(element.innerText);
+//         element.style.backgroundColor=element.innerText;
+//     });
+
+//     element.addEventListener("mouseleave",()=>{
+//         element.style.backgroundColor="transparent";
+//     })
 // })
