@@ -1,4 +1,11 @@
-export let name="mru";
-export function greet(){
-    return "Good morning Students"; 
+const collegeName ="mru" ;
+ const marks = 100;
+ const m1 = "pass";
+ function Tasking(){
+    console.log("I am learning code now at  "+collegeName);
+    document.getElementById("hello").innerText="I am learning code now at  "+collegeName
 }
+
+export {collegeName, Tasking};
+export default marks;
+
